@@ -8,7 +8,7 @@ def give_list():
     return my_list
 
 def give_first_item():
-    return my_list[0]
+    return str(my_list[0])
 
 def give_first_and_last_item():
     return [my_list[0], my_list[-1]]
